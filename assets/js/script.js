@@ -20,11 +20,13 @@ const SELECTIONS = [
         },
     ]
 
-selectionButtons.forEach(selectionButtons => {
+selectionButtons.forEach(selectionButton => {
     selectionButton.addEventListener('click', e => {
         const SelectionName = selectionButton.dataset.selection
         const selection = SELECTIONS.find(selection => selection.name === SelectionName)
-        makeSelection(SelectionName)
+        console.log(selection)
+        makeSelection(selection)
+        console.log(SelectionName)
     })
 });
 
@@ -52,7 +54,7 @@ function addSelectionResult(selection, winner) {
 const div = document.createElement('div');
 div.innerText = selection.emoji; 
 div.classList.add('result-selection');
-if (isWinner) div.classList.add('winner');
+if (winner) div.classList.add('winner');
 finalColumn.after(div);
 }
 
