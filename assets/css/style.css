@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    background-color: blueviolet;
+    background-color: beige;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    height: 850px;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 35px;
+    font-size: 50px;
+    height: 10rem;
+
+}
+
+.selection:hover {
+    transform: scale(1,2);
+    transition: 100ms;
+    text-shadow: 2px 2px 4px green;
+}
+
+.results {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-items: center;
+    align-items: center;
+   
 }
