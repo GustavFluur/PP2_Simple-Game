@@ -26,15 +26,15 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    letter-spacing: 75px;
+    letter-spacing: 150px;
     font-size: 70px;
-    height: 20rem;
+    height: 30rem;
 
 }
 
 .selection:hover {
-    transform: scale(2,2);
-    transition: 150ms;
+    transform: scale(1,3);
+    transition: 90ms;
     text-shadow: 2px 2px 4px black;
 }
 

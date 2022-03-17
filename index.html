@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js" defer></script>
+    
     <title>Document</title>
 </head>
 <body>
     <div class="selections">
         <button class="selection" data-selction="rock">🪨</button>
-        <button class="selection"data-selction="scissor">✂️</button>
-        <button class="selection"data-selction="paper">📜</button>
+        <button class="selection" data-selction="scissor">✂️</button>
+        <button class="selection" data-selction="paper">📜</button>
     </div>
     <div class="results">
         <div>
             You:
-            <span class="result-score">0</span>
+            <span class="result-score" data-your-score >0</span>
         </div>
-        <div>
+        <div data-final-columm>
             Computer:
-            <span class="result-score">0</span>
+            <span class="result-score" data-computer-score>0</span>
         </div>
         <!-- <div class="result-selection winner">🪨</div>
         <div class="result-selection loser">✂️</div> -->
     </div>
-    
+    <script src="assets/js/script.js" defer></script>
 </body>
 </html>
