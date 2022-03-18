@@ -3,29 +3,22 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     justify-content: center;
-    height: 850px;
+    height: 100%;
     background-color: gray;
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {
+h1, h2, p {
     color: beige;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 70px;
 }
-
-h2 {
-    color: beige;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-}
-
-p {
-    color: beige;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+.heading1 {
+    font-size: large;
 }
 
 .selections {
@@ -38,10 +31,7 @@ p {
     border: none;
     outline: none;
     cursor: pointer;
-    letter-spacing: 4rem;
-    font-size: 8rem;
-    margin-bottom: 8rem;
-
+    font-size: 5rem; 
 }
 
 .selection:hover {
@@ -56,17 +46,18 @@ p {
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     justify-items: center;
-    align-items: center;  
+    align-items: center;
+    font-size: 2.2em;
+    font-weight:bold;   
 }
 
 .result-score {
     margin-left: 1 rem;
-    font-size: 40px;
     color: blue;
+    font-size: 1.2em;
+    font-weight:bold; 
 }
 
 .result-selection {
