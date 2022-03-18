@@ -8,7 +8,30 @@ body {
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
+}
 
+h1 {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+
+h2 {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+h3 {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+p {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .selections {
@@ -21,9 +44,9 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    letter-spacing: 150px;
+    letter-spacing: 4rem;
     font-size: 8rem;
-    height: 16rem;
+    margin-bottom: 8rem;
 
 }
 
@@ -39,8 +62,8 @@ body {
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 50px;
+    letter-spacing: 2px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     justify-items: center;
     align-items: center;  
