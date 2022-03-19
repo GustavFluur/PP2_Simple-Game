@@ -87,6 +87,7 @@ In the JS validator there were 13 warnings found within the JS file and unused f
 ### Solved Bugs
 
 
+
 I fixed the bugs by reducing the space between and a change to its accurate definition: 
 
 .result-score {
@@ -95,16 +96,20 @@ I fixed the bugs by reducing the space between and a change to its accurate defi
     		margin-left: 1rem;
 
 
-.result-selection.winner {
-opacity: 1;
-font-size: 1,5rem;
-}
-=> .result-selection.winner {
-opacity: 1;
-font-size: 1.5rem;
-}
 
-- Thanks to those changes it generated a slight increase in the performance according to the lighthouse: ![lighthouse.old](/assets/images/lighthouse.png)![lighthouse.new](/assets/images/lighthouse.new.png).
+
+##### .result-selection.winner {
+##### opacity: 1;
+##### font-size: 1,5rem;
+##### }
+##### => .result-selection.winner {
+##### opacity: 1;
+##### font-size: 1.5rem;
+##### }
+
+
+## Thanks to those changes it generated a slight increase in the performance according to the lighthouse: ![lighthouse.old](/assets/images/lighthouse.png)![lighthouse.new](/assets/images/lighthouse.new.png).
+
 
 # Deployment
 
