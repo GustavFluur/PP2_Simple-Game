@@ -18,7 +18,7 @@ h1, h2, p {
     font-family: 'Courier New', Courier, monospace;
 }
 .heading1 {
-    font-size: large;
+    font-size: 100%;
 }
 
 .selections {
@@ -31,7 +31,7 @@ h1, h2, p {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 5rem; 
+    font-size: 6rem; 
 }
 
 .selection:hover {
