@@ -54,7 +54,7 @@ h1, h2, p {
 }
 
 .result-score {
-    margin-left: 1 rem;
+    margin-left: 1rem;
     color: blue;
     font-size: 1.2em;
     font-weight:bold; 
@@ -65,5 +65,5 @@ opacity: .5;
 }
 .result-selection.winner {
 opacity: 1;
-font-size: 1,5rem;
+font-size: 1.5rem;
 }

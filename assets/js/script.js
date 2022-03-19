@@ -52,10 +52,6 @@ function makeSelection(selection) {
     }
 }
 
-function newFunction() {
-    incrementScore(yourScoreSpan);
-}
-
 function incrementScore (scoreSpan) {
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1;
 }
