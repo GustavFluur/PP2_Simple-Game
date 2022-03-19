@@ -5,11 +5,23 @@ The website is constructed and well-handled to use for all ages within its simpl
 
 # Features
 
+## Existing Features
 Once you are entering the website you will face a short introduction on what the page is about and as soon as you are interacting with the selections you'll start the game right away. 
 
 ## Navigation Bar & Logo
-The Rock, Scissor and Paper page consist of only one page with a unchallenging HTML structure and visual effects by each selecting item thanks to the CSS. E.g. where either the rock or paper is increasing in size by highlighting your choice, thus creates a understanding on what you have picked against your opponent. You will be witnessing the results below, where it indicates either your winning - or losing score. Everything is randomly constructed and in that regard makes the game challenging for the user without no knowing the oppont's or computer's decision-making. 
+
+
+## Header 
+![Responsive image](/assets/images/header.png)
+The Rock, Scissor and Paper page consist of only one page with a unchallenging HTML structure and visual effects by each selecting item thanks to the CSS. 
+
+- E.g. where either the rock or paper is increasing in size by highlighting your choice, thus creates a understanding on what you have picked against your opponent. 
+- You will be witnessing the results below, where it indicates either your winning - or losing score. Everything is randomly constructed and in that regard makes the game challenging for the user without no knowing the oppont's or computer's decision-making. 
+
 ![Responsive image](/assets/images/Scissor-zom.png)
+
+# Gaming Result
+![Responsive image](/assets/images/gaming-results.png)
 
  # Credits 
 
